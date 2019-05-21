@@ -1,5 +1,6 @@
 package com.home.efj.cad;
 
+import com.home.efj.cad.parametrized.ParametrizedTest;
 import com.home.efj.cad.serprov.ServiceProviderTest;
 import lombok.extern.log4j.Log4j;
 import org.apache.log4j.PropertyConfigurator;
@@ -17,5 +18,6 @@ public class Main {
         log.info("Creating and Destroying Objects...");
 
         ServiceProviderTest.run();
+        ParametrizedTest.run();
     }
 }
