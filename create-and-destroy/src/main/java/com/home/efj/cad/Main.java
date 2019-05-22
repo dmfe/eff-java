@@ -1,5 +1,6 @@
 package com.home.efj.cad;
 
+import com.home.efj.cad.builder.BuilderTest;
 import com.home.efj.cad.parametrized.ParametrizedTest;
 import com.home.efj.cad.serprov.ServiceProviderTest;
 import lombok.extern.log4j.Log4j;
@@ -19,5 +20,6 @@ public class Main {
 
         ServiceProviderTest.run();
         ParametrizedTest.run();
+        BuilderTest.run();
     }
 }
