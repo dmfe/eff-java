@@ -4,6 +4,7 @@ import com.home.efj.cad.builder.BuilderTest;
 import com.home.efj.cad.parametrized.ParametrizedTest;
 import com.home.efj.cad.serprov.ServiceProviderTest;
 import com.home.efj.cad.singleton.SingletonTest;
+import com.home.efj.cad.unnecessary.BoomerTest;
 import lombok.extern.log4j.Log4j;
 import org.apache.log4j.PropertyConfigurator;
 
@@ -23,5 +24,6 @@ public class Main {
         ParametrizedTest.run();
         BuilderTest.run();
         SingletonTest.run();
+        BoomerTest.run();
     }
 }
