@@ -12,12 +12,12 @@
 
     <modules>
         <module>create-and-destroy</module>
+        <module>generics</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.log.directory>${project.basedir}/logs</project.log.directory>
-        <project.src.maincl></project.src.maincl>
         <project.lib.prefix>lib</project.lib.prefix>
     </properties>
 
